@@ -1,0 +1,6 @@
+[submodule "webpy"]
+	path = frameworks/webpy
+	url = git://github.com/webpy/webpy.git
+[submodule "lettuce"]
+	path = frameworks/lettuce
+	url = git://github.com/gabrielfalcao/lettuce.git

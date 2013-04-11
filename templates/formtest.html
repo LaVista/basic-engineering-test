@@ -1,0 +1,7 @@
+$def with (calc)
+
+<form name="main" method="post">
+  $if not calc.valid: <p class="error">Invalid inputs</p>
+  $:calc.render()
+  <input type="submit" value="Submit"/>
+</form>
